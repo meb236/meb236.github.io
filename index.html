@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>My First Site</title>
+  <title>MEB236 GitHub</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="ospb.css">
   <link rel="stylesheet" href="parallax.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <script src="modernizr.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -17,38 +20,28 @@
 <div class="jumbotron text-center">
 <h1 class='elegantshadow'>MEB236/DESIGN</h1>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p><img src="http://pmp.pmpprinting.com/wp-content/uploads/2015/09/print_roller.jpg" style="width:100%;height:100%;"></p>
+<div class="demo">
+  <div class="floor isometric">
+    <div class="appBar"><i class="material-icons md-light md-24" id="drawerOpener">menu</i></div>
+    <div class="content">
+      <div class="card"></div>
+      <div class="card"></div>
     </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p><img src="http://pmp.pmpprinting.com/wp-content/uploads/2015/09/print_roller.jpg" style="width:100%;height:100%;"></p>
+    <div class="fab dialogOpener toasted"></div>
+    <div class="button dialogOpener"></div>
+    <div class="dialogContainer hidden" id="dialog">
+      <div class="dialog"></div>
     </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p><img src="http://pmp.pmpprinting.com/wp-content/uploads/2015/09/print_roller.jpg" style="width:100%;height:100%;"></p>
+    <div class="drawerContainer hidden" id="drawer">
+      <div class="drawer">
+        <div class="header"></div>
+      </div>
     </div>
   </div>
 </div>
-	<div id="scrollbar" class="scrollbar">
-		<div class="handle">
-			<div class="mousearea"></div>
-		</div>
-	</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-	<div id="content" class="content pagespan">
-
-		<div id="pos" class="pos">
-			<span id="cur" class="cur"></span> <span class="slash">/</span> <sup id="max" class="max"></sup>
-		</div>
-
-		<p class="center">
-			Parallax mode provides a great navigation and animation timing interface into which you can chain your
-			animation frame renderer.
-		</p>
+    <script src="index.js"></script>
 
 		<pre><code data-language="javascript">// Initiate parallax mode by passing a number into the frame argument
 var parallax = new Sly(8000, options);
