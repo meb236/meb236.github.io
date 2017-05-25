@@ -5,40 +5,75 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="innershadow.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="ospb.css">
+  <link rel="stylesheet" href="parallax.css">
+  <script src="modernizr.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-
 <div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
+<h1 class='elegantshadow'>MEB236/DESIGN</h1>
 </div>
-  
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
       <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p><img src="http://pmp.pmpprinting.com/wp-content/uploads/2015/09/print_roller.jpg" style="width:100%;height:100%;"></p>
     </div>
     <div class="col-sm-4">
       <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p><img src="http://pmp.pmpprinting.com/wp-content/uploads/2015/09/print_roller.jpg" style="width:100%;height:100%;"></p>
     </div>
     <div class="col-sm-4">
       <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p><img src="http://pmp.pmpprinting.com/wp-content/uploads/2015/09/print_roller.jpg" style="width:100%;height:100%;"></p>
     </div>
   </div>
 </div>
-<!-- 4:3 aspect ratio -->
-<div class="embed-responsive embed-responsive-4by3">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JZyQI7ciArg"></iframe>
-</div>
+	<div id="scrollbar" class="scrollbar">
+		<div class="handle">
+			<div class="mousearea"></div>
+		</div>
+	</div>
 
+	<div id="content" class="content pagespan">
+
+		<div id="pos" class="pos">
+			<span id="cur" class="cur"></span> <span class="slash">/</span> <sup id="max" class="max"></sup>
+		</div>
+
+		<p class="center">
+			Parallax mode provides a great navigation and animation timing interface into which you can chain your
+			animation frame renderer.
+		</p>
+
+		<pre><code data-language="javascript">// Initiate parallax mode by passing a number into the frame argument
+var parallax = new Sly(8000, options);
+// Attach a function that renders a frame to `move` event
+parallax.on('load move', render);
+// Initialize Sly instance
+parallax.init();</code></pre>
+
+		<p class="center">
+			The rendering function than receives the Sly instance as its <code>this</code> value, and will be triggered
+			only when there has been a change in position. With this, you can utilize a lot of Sly's awesomeness. The
+			<code>move</code> event is directly chained to <code>requestAnimationFrame</code>, so you have a smooth
+			&amp; optimized 60 FPS rendering with build in animation easings support, and all the other Sly's features
+			out of the box.
+		</p>
+	</div>
+
+	<ul id="particles" class="particles"></ul>
+
+	<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="plugins.js"></script>
+	<script src="plugins1.js"></script>
+	<script src="sly.min.js"></script>
+	<script src="parallax.js"></script>
 </body>
 </html>
 
