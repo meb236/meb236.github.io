@@ -1,0 +1,820 @@
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:26:48 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 375ms (Views: 29.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:37:38 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 372ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___809622431080538352_70340337651060'
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:37:44 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 31ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___809622431080538352_70340339778260'
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:39:48 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 352ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'style' with type 'text/css'
+Checked in these paths: 
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css:3
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2003197127714712235_70261278523440'
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:39:52 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 15ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'style' with type 'text/css'
+Checked in these paths: 
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css:3
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2003197127714712235_70261334597480'
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:40:08 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:40:11 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3793ms (Views: 3790.8ms)
+
+
+Completed 200 OK in 421ms (Views: 418.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:44:04 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 60ms
+
+
+  
+SyntaxError (/Users/matthewbloom/Documents/myapp/mattsapp/app/views/layouts/application.html.erb:23: syntax error, unexpected ':', expecting =>
+...’, ‘data-turbolinks-track’: ‘reload’);@output_buffer...
+...                                ^
+/Users/matthewbloom/Documents/myapp/mattsapp/app/views/layouts/application.html.erb:24: syntax error, unexpected ':', expecting ')'
+...’, ‘data-turbolinks-track’: ‘reload’), false );@outp...
+...                                ^
+/Users/matthewbloom/Documents/myapp/mattsapp/app/views/layouts/application.html.erb:24: syntax error, unexpected ')', expecting keyword_end
+...rack’: ‘reload’), false );@output_buffer.safe_append='
+...                              ^):
+  
+app/views/layouts/application.html.erb:23: syntax error, unexpected ':', expecting =>
+app/views/layouts/application.html.erb:24: syntax error, unexpected ':', expecting ')'
+app/views/layouts/application.html.erb:24: syntax error, unexpected ')', expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:44:18 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 161ms (Views: 157.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:49:59 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 1229ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1616981074816529515_70148246301220'
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:51:38 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 33ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:2
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1616981074816529515_70148296302080'
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:52:25 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 31ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:2
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1616981074816529515_70148305260280'
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:52:35 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 33ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1616981074816529515_70148306098940'
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:53:58 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 66ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1616981074816529515_70148240682920'
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:54:03 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 29ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1616981074816529515_70148240960400'
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:54:10 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 32ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1616981074816529515_70148298671020'
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:54:15 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 50ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1616981074816529515_70148244141460'
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:54:26 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2935ms (Views: 2932.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:54:30 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 18.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:56:53 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 396ms (Views: 375.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:59:11 -0500
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:59:11 -0500
+Processing by ActivityController#mine as HTML
+Processing by ActivityController#mine as HTML
+Started GET "/" for 127.0.0.1 at 2018-01-28 22:59:13 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendering activity/mine.html.erb within layouts/application
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (12.5ms)
+  Rendered activity/mine.html.erb within layouts/application (11.9ms)
+  Rendered activity/mine.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 3361ms (Views: 1294.8ms)
+
+
+Completed 200 OK in 1294ms (Views: 1291.7ms)
+
+
+Completed 200 OK in 3357ms (Views: 1302.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:06:45 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 1071ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___4168803281686984032_70184511494680'
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:06:49 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 31ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___4168803281686984032_70184565855220'
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:06:57 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 34ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:2
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___4168803281686984032_70184525827820'
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:07:33 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 154ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: ../../bootstrap.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:2
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___4168803281686984032_70184525059340'
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:08:49 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 281ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: AdminLTE/bower_components/bootstrap.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___4168803281686984032_70184511931900'
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:08:55 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 33ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: AdminLTE/bower_components/bootstrap.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___4168803281686984032_70184573965860'
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:19:57 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 420ms
+
+
+  
+SyntaxError (/Users/matthewbloom/Documents/myapp/mattsapp/app/views/layouts/application.html.erb:23: syntax error, unexpected ':', expecting =>
+...’, ‘data-turbolinks-track’: ‘reload’);@output_buffer...
+...                                ^
+/Users/matthewbloom/Documents/myapp/mattsapp/app/views/layouts/application.html.erb:24: syntax error, unexpected ':', expecting ')'
+...’, ‘data-turbolinks-track’: ‘reload’), false );@outp...
+...                                ^
+/Users/matthewbloom/Documents/myapp/mattsapp/app/views/layouts/application.html.erb:24: syntax error, unexpected ')', expecting keyword_end
+...rack’: ‘reload’), false );@output_buffer.safe_append='
+...                              ^):
+  
+app/views/layouts/application.html.erb:23: syntax error, unexpected ':', expecting =>
+app/views/layouts/application.html.erb:24: syntax error, unexpected ':', expecting ')'
+app/views/layouts/application.html.erb:24: syntax error, unexpected ')', expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:20:17 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+SyntaxError (/Users/matthewbloom/Documents/myapp/mattsapp/app/views/layouts/application.html.erb:23: syntax error, unexpected ':', expecting =>
+...’, ‘data-turbolinks-track’: ‘reload’);@output_buffer...
+...                                ^
+/Users/matthewbloom/Documents/myapp/mattsapp/app/views/layouts/application.html.erb:24: syntax error, unexpected ':', expecting ')'
+...’, ‘data-turbolinks-track’: ‘reload’), false );@outp...
+...                                ^
+/Users/matthewbloom/Documents/myapp/mattsapp/app/views/layouts/application.html.erb:24: syntax error, unexpected ')', expecting keyword_end
+...rack’: ‘reload’), false );@output_buffer.safe_append='
+...                              ^):
+  
+app/views/layouts/application.html.erb:23: syntax error, unexpected ':', expecting =>
+app/views/layouts/application.html.erb:24: syntax error, unexpected ':', expecting ')'
+app/views/layouts/application.html.erb:24: syntax error, unexpected ')', expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:20:28 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 11ms
+
+
+  
+SyntaxError (/Users/matthewbloom/Documents/myapp/mattsapp/app/views/layouts/application.html.erb:23: syntax error, unexpected ':', expecting =>
+...’, ‘data-turbolinks-track’: ‘reload’);@output_buffer...
+...                                ^
+/Users/matthewbloom/Documents/myapp/mattsapp/app/views/layouts/application.html.erb:24: syntax error, unexpected ':', expecting ')'
+...’, ‘data-turbolinks-track’: ‘reload’), false );@outp...
+...                                ^
+/Users/matthewbloom/Documents/myapp/mattsapp/app/views/layouts/application.html.erb:24: syntax error, unexpected ')', expecting keyword_end
+...rack’: ‘reload’), false );@output_buffer.safe_append='
+...                              ^):
+  
+app/views/layouts/application.html.erb:23: syntax error, unexpected ':', expecting =>
+app/views/layouts/application.html.erb:24: syntax error, unexpected ':', expecting ')'
+app/views/layouts/application.html.erb:24: syntax error, unexpected ')', expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:20:41 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 1134ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4171403549662986822_70187581749840'
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:20:50 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 33ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4171403549662986822_70187645580440'
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:21:01 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 297ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4171403549662986822_70187578704500'
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:21:04 -0500
+Processing by ActivityController#mine as HTML
+  Rendering activity/mine.html.erb within layouts/application
+  Rendered activity/mine.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 45ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/config
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/images
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/app/assets/stylesheets
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/matthewbloom/Documents/myapp/mattsapp/node_modules):
+    4:     <title>Mattsapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/style.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4171403549662986822_70187638461760'
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:21:12 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 90ms (Views: 7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-28 23:21:14 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 9ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-30 18:21:07 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 429ms (Views: 28.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-30 18:22:45 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/matthewbloom/.rvm/gems/ruby-2.3.5/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 830ms (Views: 50.2ms)
+
+
